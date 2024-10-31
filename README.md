@@ -19,6 +19,9 @@ mvn clean package
 - The following command should be used to run the Java application
 ```shell
 java -Dllamacpp.model=<path to gguf model> -jar <path to jar that is build from maven>
+
+Example - java -Dllamacpp.model=/home/gopalansh/tinyllama-1.1b-chat-v1.0.Q6_K.gguf -jar target/LLMCpp-Chat-SpringBoot.jar
+- Assuming your LLM model is located under /home/gopalansh dir and jar file under target folder
 ```
 
 ### Using Docker
